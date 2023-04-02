@@ -13,7 +13,7 @@ struct ContentView: View {
     @State private var inputText = ""
     @State private var messageArray: [String] = []
     
-    private var client = OpenAISwift(authToken: "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")
+    private var client = OpenAISwift(authToken: "")
     
     var body: some View {
         VStack(alignment: .leading) {
